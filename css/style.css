@@ -4,13 +4,12 @@
 --title-bg-color: #F5F5F5;
 --accent-color: #2196F3;
 }
-
 /* Index html*/
 body{
     color: var(--primary-text-color);
     background-color: #F5F5F5;
     font-family: Roboto, sans-serif;
-    
+    text-decoration-line: none;
 }
 /* Logo */
 .logo{
@@ -20,6 +19,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration-line: none;
 }
 
 .color-name {
@@ -53,6 +53,7 @@ ul{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
 .site-nav .link.current {
     color: var(--accent-color);
@@ -117,6 +118,7 @@ ul{
 .contacts-tel,
 .contacts-mail {
     color: var(--primary-text-color);
+    text-decoration-line: none;
 }
 .contacts-mail:hover,
 .contacts-mail:focus{
@@ -190,8 +192,24 @@ ul{
     background-color: #2F303A;
 }
 .address-1{
+    text-decoration-line: none;
     color: var(--title-text-color);
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
 }
 .address{
-    color: rgba(255, 255, 255, 0.6)
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.6); 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+    
 }
